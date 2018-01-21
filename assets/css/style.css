@@ -65,7 +65,7 @@ h1{
 }
 
 .main{
-    padding-top: 130px;
+    padding-top: 120px;
 }
 
 #main-box{
@@ -73,7 +73,7 @@ h1{
     width: 100%;
     max-width: 650px;
     padding: 30px;
-    margin: 0 0 40px;
+    margin: 0 0 130px;
     background: #fff;
     border: 1px solid #ddd;
 }
@@ -120,9 +120,10 @@ h3{
 .pic{
     float: left;
     width: 200px;
+    height: 200px;
     height: auto;
     margin-top: 10px;
-    margin-right: 25px;
+    margin-right: 20px;
 }
 
 a{
@@ -135,7 +136,10 @@ a{
     line-height: 24px;
     font-size: 16px;
     padding-left: 10px;
-    color: #ccc;
+}
+
+input placeholder{
+    opacity: .6;
 }
 
 .message{
